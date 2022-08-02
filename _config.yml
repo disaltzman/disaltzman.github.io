@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "David Saltzman"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "David Saltzman"
 description              : &description "personal description"
