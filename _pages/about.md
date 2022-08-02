@@ -6,7 +6,7 @@ redirect_from:
   - /about.html
 ---
 
-# About Me
+# Hi, I'm Dave
 
 My name is David Saltzman and I am a graduate student and National Institutes of Health Ruth L. Kirschstein National Research Service Award (NRSA) Fellow in the [Language and Brain (LAB) Laboratory](https://myerslab.uconn.edu/) at the University of Connecticut. My research focuses on how humans are able to adeptly understand spoken language, specifically focusing on how they adapt to the novel acoustic-phonetic information they encounter from each new talker.
 
