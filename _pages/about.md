@@ -1,6 +1,5 @@
 ---
 permalink: /
-title: "David Saltzman"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
