@@ -1,11 +1,11 @@
 ---
 permalink: /
 author_profile: true
+title: "Hi, I'm Dave"
 redirect_from: 
   - /about/
   - /about.html
 ---
-# Hi, I'm Dave
 
 I am a graduate student and National Institutes of Health Ruth L. Kirschstein National Research Service Award (NRSA) Fellow in the [Language and Brain (LAB) Laboratory](https://myerslab.uconn.edu/) at the University of Connecticut. My research focuses on how humans are able to adeptly understand spoken language, specifically focusing on how they adapt to the novel acoustic-phonetic information they encounter from each new talker.
 
