@@ -1,7 +1,7 @@
 ---
 permalink: /
 author_profile: true
-title: "Hi, I'm Dave"
+title: "About"
 redirect_from: 
   - /about/
   - /about.html
