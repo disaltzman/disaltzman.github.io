@@ -8,4 +8,4 @@ redirect_from:
 
 {% include base_path %}
 
-<iframe style="position: absolute; height: 100%" src= "CV.pdf" />
+<iframe src="CV.pdf#zoom=50" height="100%" width="100%"></iframe>
