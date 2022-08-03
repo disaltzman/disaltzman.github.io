@@ -8,5 +8,4 @@ redirect_from:
 
 {% include base_path %}
 
-<div style="width: 100%; height: 100%">
-<emded src="CV.pdf" type="application/pdf">
+<iframe style="position: absolute; height: 100%" src= "CV.pdf" />
