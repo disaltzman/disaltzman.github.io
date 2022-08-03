@@ -2,7 +2,7 @@
 main:
     
   - title: "Academic CV"
-    url: /cv/
+    url: https://disaltzman.github.io/files/CV.pdf
 
   - title: "Resume"
     url: /resume/
