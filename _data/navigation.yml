@@ -1,9 +1,9 @@
 # main links links
 main:
-    
+
+  - title: "Resume"
+    url: https://disaltzman.github.io/files/Resume.pdf
+  
   - title: "Academic CV"
     url: https://disaltzman.github.io/files/CV.pdf
 
-  - title: "Resume"
-    url: /resume/
-  
