@@ -5,7 +5,7 @@ main:
     url: https://disaltzman.github.io/files/Resume.pdf
 
   - title: "Portfolio"
-    url: https://disaltzman.github.io/Portfolio
+    url: /portfolio/
 
   - title: "Academic CV"
     url: https://disaltzman.github.io/files/CV.pdf
