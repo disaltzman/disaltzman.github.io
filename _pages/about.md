@@ -7,8 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm Dave and I am a graduate student and National Institutes of Health Ruth L. Kirschstein National Research Service Award (NRSA) Fellow in the [Language and Brain (LAB) Laboratory](https://myerslab.uconn.edu/) at the University of Connecticut. My research focuses on how humans are able to adeptly understand spoken language, specifically focusing on how they adapt to the novel acoustic-phonetic information they encounter from each new talker.
+Hi, I'm Dave and I an aspiring data scientist. I was a Data Science Intern at [QueBIT](https://quebit.com/), where I worked with a team of consultants and VP of Cross Solutions Architecture to research and implement a new predictive forecasting pipeline that included state of the art neural network
+approaches (e.g., N-BEATS, DeepAR).
 
-I am also currently a Data Science Intern at [QueBIT](https://quebit.com/), where I am working to update and improve the forecasting tools they utilize. This includes evaluating new statistical methods like Prophet and neural network approaches like N-BEATS.
+I am also a PhD student and am targeting completion of my dissertation in July 2023. I then hope to begin a career in data science. Please feel free to browse my portfolio here and on my GitHub.
 
-I am targeting completion of my dissertation in summer 2023, and hope to begin a career in data science then. Please feel free to browse my public GitHub repositories for examples of my work.
+Previously, I was a doctoral student and National Institutes of Health Ruth L. Kirschstein National Research Service Award (NRSA) Fellow in the [Language and Brain (LAB) Laboratory](https://myerslab.uconn.edu/) at the University of Connecticut. My research focused on how humans are able to adeptly understand spoken language, specifically focusing on how they adapt to the novel acoustic-phonetic information they encounter from each new talker.
