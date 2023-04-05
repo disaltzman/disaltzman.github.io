@@ -464,7 +464,7 @@ ggplot(plot_data,aes(x_label,y=MASE)) +
   ggtitle("Improvement by new models over old approach")
 ```
 
-![](/figure-gfm/Calculate%20Improvement-1.png)<!-- -->
+![](/figure-gfm/Calculate-Improvement-1.png)<!-- -->
 
 The average percent improvement was *a whopping 25.56* % *increase in
 accuracy*. That means that for 424 out of 446 SKU’s, **my new approach
