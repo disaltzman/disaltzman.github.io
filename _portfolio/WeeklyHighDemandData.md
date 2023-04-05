@@ -19,11 +19,6 @@ High Demand Weekly Data Forecasting
     id="toc-improvement-in-accuracy-over-old-quebit-forecasting-approach">Improvement
     in accuracy over old QueBIT forecasting approach</a>
 
-This notebook explores my work in improving forecasting for weekly high
-demand data. If you would like to just read the narrative portions of
-this document, click on the box in the top right corned of this document
-that says “Code” and then click on “Hide All Code”.
-
 # The Business Problem
 
 QueBIT clients have traditionally asked for forecasts derived from
@@ -469,7 +464,7 @@ ggplot(plot_data,aes(x_label,y=MASE)) +
   ggtitle("Improvement by new models over old approach")
 ```
 
-![](WeeklyHighDemandData_files/figure-gfm/Calculate%20Improvement-1.png)<!-- -->
+![](figure-gfm/Calculate%20Improvement-1.png)<!-- -->
 
 The average percent improvement was *a whopping 25.56* % *increase in
 accuracy*. That means that for 424 out of 446 SKU’s, **my new approach
