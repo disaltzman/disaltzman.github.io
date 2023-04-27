@@ -54,8 +54,7 @@ Before preprocessing for the neural network can occur, we need to clean
 up the data, which is a little messy. I removed the whitespace in some
 of the cells, removed placeholders that should be NA’s, and other
 non-standard formatting. There are multiple different time series
-contained in this dataset, and for the purposes of testing we narrowed
-it down to just one SKU that contained very few periods with zero
+contained in this dataset, and many of them have missing dates that need to be filled in. For the purposes of testing we narrowed it down to just one SKU that contained very few periods with zero
 demand.
 
 ``` python
@@ -106,6 +105,8 @@ print(df['ID'].
     ID2     433
     Name: ID, dtype: int64
 
+In this dataset, missing dates meant that there was no demand on that date, which is meaningful information for our neural network model. In order to fill in those missing dates, I used the package `janitor` which has a handy function called `complete` that will allow you to fill out those missing dates by each `ID`. 
+
 ``` python
 # Fill in missing days
 import janitor
@@ -153,13 +154,14 @@ df = df.drop('ID',axis=1)
     ID2     649
     Name: ID, dtype: int64
 
+Much better!
+
 ## Feature Engineering
 
 The RNN that we are building cannot take dates as an input, and
 therefore our dataframe column containing the dates needs to be
-transformed into numeric series that represent each element of the date.
-This also in turn provides more information to the neural network to
-attempt to learn a pattern.
+transformed into series that represent each element of the date.
+This also in turn provides more information to the neural network, which is beneficial as our time series (before feature engineering) was unidimensional.
 
 ``` python
 # Create various temporal features
@@ -173,8 +175,8 @@ df_features = (df
 
 ## Splitting the data
 
-We then split the data using a split of 70% of the data for training,
-the subsequent 15% of the data for validation, and the final 15% of data
+We then split the data using a split of 80% of the data for training,
+the subsequent 10% of the data for validation, and the final 10% of data
 is held out to assess the generalization of the model.
 
 ``` python
